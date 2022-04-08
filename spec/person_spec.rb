@@ -2,7 +2,7 @@ RSpec.describe 'Person' do
   let(:stella) { Person.new('Stella') }
   let(:blanche) { Person.new('Blanche') }
   let(:people) { [stella, blanche] }
-
+ 
   describe 'initialization and attributes' do
     describe '.new' do
       it 'a new person is instantiated with a name' do
